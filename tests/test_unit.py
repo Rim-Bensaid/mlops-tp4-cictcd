@@ -1,5 +1,7 @@
 from src.data import load_data, load_params
 from src.model import build_model
+
+
 def test_load_params():
     params = load_params()
     assert "data" in params

@@ -1,6 +1,7 @@
 from src.data import load_params
 from src.train import train
 
+
 def test_model_quality_gate():
     params = load_params()
     _, metrics = train()

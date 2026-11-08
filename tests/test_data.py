@@ -1,5 +1,6 @@
 from src.data import load_data
 
+
 def test_no_missing_values():
     df = load_data()
     assert df.isnull().sum().sum() == 0

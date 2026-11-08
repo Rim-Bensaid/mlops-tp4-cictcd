@@ -1,6 +1,8 @@
 from sklearn.metrics import accuracy_score, f1_score
+
 from src.data import load_data, load_params, split_data
 from src.model import build_model
+
 
 def train():
     params = load_params()
