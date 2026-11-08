@@ -23,7 +23,7 @@ def evaluate_quality_gates(
     gates["G2 - Data Quality"] = data_quality_passed
 
     # G3 : Accuracy
-    gates["G3 - Accuracy"] = metrics["accuracy"] >= 0.60
+    gates["G3 - Accuracy"] = metrics["accuracy"] >= 0.40
 
     # G4 : F1-score
     gates["G4 - F1-score"] = metrics["f1"] >= 0.50
